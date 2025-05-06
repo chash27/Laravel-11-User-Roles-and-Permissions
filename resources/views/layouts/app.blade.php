@@ -56,16 +56,16 @@
                             @endif
                         @else
                             @can('user-list')
-                                <li><a class="nav-link" href="{{ route('users.index') }}">User List</a></li>
+                                <li><a class="nav-link" href="{{ route('users.index') }}">Users</a></li>
                             @endcan
                             @can('role-list')
-                                <li><a class="nav-link" href="{{ route('roles.index') }}">Role List</a></li>
+                                <li><a class="nav-link" href="{{ route('roles.index') }}">Roles</a></li>
                             @endcan
                             @can('permission-list')
                                 <li><a class="nav-link" href="{{ route('permissions.index') }}">Permission</a></li>
                             @endcan
                             @can('product-list')
-                                <li><a class="nav-link" href="{{ route('products.index') }}">Product</a></li>
+                                <li><a class="nav-link" href="{{ route('products.index') }}">Products</a></li>
                             @endcan
 
                             <li class="nav-item dropdown">
