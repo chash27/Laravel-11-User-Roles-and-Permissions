@@ -93,6 +93,3 @@
 </table>
 
 
-## 🚀 Published By
-
-Publish one article daily about Laravel on the [ItSolutionStuff.com](https://www.itsolutionstuff.com).
